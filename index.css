@@ -1,0 +1,11 @@
+.carousel-inner {
+  border: solid 5px black;
+  border-radius: 3px;
+}
+
+.header {
+  border: 2px solid black;
+  position: relative;
+  height: 30%;
+  text-align: center;
+}
