@@ -1,13 +1,25 @@
-.carousel-inner {
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.carousel-item {
+  margin-top: 50px;
 }
 
 .header {
-  /* border: 2px solid black; */
+  /* border: 2px solid red; */
   position: relative;
   height: 30%;
   text-align: center;
 }
+.title {
+width: 100%;
+height: 4rem;
+/* border: 3px solid red; */
+background-color: rgba(88, 87, 87, 0.296);
 
+}
 .card-text {
   text-align: center;
 }
@@ -21,3 +33,47 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.carousel-inner {
+  height: 30rem;
+  border: 5 solid red;
+}
+
+/* .active {
+  object-fit: scale-down;
+  max-height: 100%;
+} */
+
+
+.a {
+  height: 30rem;
+  width: ;
+  border: 4px solid red;
+}
+.pic {
+  object-fit: contain
+  max-height: 100%;
+}
+
+.mb-3 {
+  max-width: 700px;
+}
+
+.rounded-start {
+  height: -webkit-fill-available;
+}
+
+.val {
+  font-size: x-large;
+  color: red;
+}
+.card-title {
+  margin-top: -10px
+}
+
+
+p {
+  position: relative;
+  display: inline;
+}
+
