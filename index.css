@@ -12,6 +12,7 @@
   position: relative;
   height: 30%;
   text-align: center;
+  margin: 3rem;
 }
 .title {
   width: 100%;
@@ -19,8 +20,16 @@
   /* border: 3px solid red; */
   background-color: rgba(88, 87, 87, 0.296);
 }
+
+.card {
+  margin-top: 50px;
+}
 .card-text {
   text-align: center;
+}
+
+.card-body-padding {
+  padding: 24px;
 }
 
 .pictures {
@@ -32,7 +41,7 @@
 
 .carousel-inner {
   height: 30rem;
-  border: 5 solid red;
+  /* border: 5 solid red; */
 }
 
 .container-top-padding {
@@ -59,6 +68,7 @@
 .val {
   font-size: x-large;
   color: red;
+  font-weight: bold;
 }
 .card-title {
   margin-top: -10px;
