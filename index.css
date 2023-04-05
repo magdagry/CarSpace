@@ -22,7 +22,7 @@
 }
 
 .card {
-  margin-top: 50px;
+  box-shadow: 4px 4px 10px 0px rgb(89 92 124 / 59%);
 }
 .card-text {
   text-align: center;
@@ -45,7 +45,12 @@
 }
 
 .container-top-padding {
-  padding-top: 100px;
+  padding-top: 70px;
+}
+
+.car-desc {
+  text-align: justify;
+  margin-bottom: 50px;
 }
 
 .a {
@@ -77,4 +82,7 @@
 p {
   position: relative;
   display: inline;
+}
+.breadcrump-margin {
+  margin-bottom: 2rem;
 }
