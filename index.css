@@ -24,6 +24,11 @@
 .card {
   box-shadow: 4px 4px 10px 0px rgb(89 92 124 / 59%);
 }
+
+.card:hover {
+  box-shadow: 4px 4px 15px 0px rgb(89 92 124 / 70%);
+}
+
 .card-text {
   text-align: center;
 }
@@ -86,3 +91,9 @@ p {
 .breadcrump-margin {
   margin-bottom: 2rem;
 }
+
+.img-cover {
+  object-fit: cover;
+}
+
+

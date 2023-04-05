@@ -1,63 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/index.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mynavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">O nas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Salony</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Kontakt</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Marka" />
-            <button class="btn btn-primary" type="button">Szukaj</button>
-          </form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link href="index.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">CarSpace</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Salony</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Kontakt</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Marka" />
+          <button class="btn btn-primary" type="button">Szukaj</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container container-top-padding">
+    <nav class="breadcrump-margin" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CarSpace</a></li>
+        <li class="breadcrumb-item active" aria-current="page">O nas</li>
+      </ol>
+    </nav>
+
+    <h2>O NAS</h2>
+    <div class="car-desc">
+      W naszym salonie sprzedajemy samochody nowe i uzywane. Posiadamy szeroką
+      gamę marek samochodów oraz modele o róznych specyfikacjach i cenach.
+      Zatrudniamy najlepszych sprzedawców samochodowych, ktrórzy chętnie
+      pomogą w wyborze odpowiedniego pojazdu, udzielając informacji o
+      specyfikacjach technicznych, wyposazeniu i cenie samochodu. Oferujemy
+      równiez usługi finansowania, ubezpieczenia i serwisu samochodowego. W
+      naszym salonie znajdziesz roznorodna ofertę samochodów, oraz szerego
+      usług zwiazanych z ich zakupem, uzytkowaniem oraz serwisowaniem.
+    </div>
+
+
+    <div class="container marketing">
+
+
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading ">Nowoczesny salon</h2>
+          <p class="car-desc desc-margin">Zapraszamy do nowoczesnego salonu samochodowego w sercu Poznania! Nasza oferta
+            składa się
+            z szerokiego wyboru atrakcyjnych i wysokiej jakości używanych samochodów. Nasz zespół profesjonalnych
+            doradców pomoże Ci w wyborze idealnego pojazdu, dostosowanego do Twoich potrzeb i wymagań. Nasz salon został
+            zaprojektowany z myślą o klientach, którzy oczekują najwyższej jakości obsługi i komfortu. Oferujemy
+            przestronne i eleganckie wnętrza, w których możesz spokojnie zapoznać się z ofertą, a także wygodne miejsca
+            do oczekiwania. W naszym salonie znajdziesz nie tylko auta w doskonałym stanie technicznym, ale również w
+            atrakcyjnych cenach, które z pewnością zachwycą każdego miłośnika motoryzacji. Jesteśmy przekonani, że nasz
+            salon spełni oczekiwania nawet najbardziej wymagających klientów. Zapraszamy do odwiedzenia nas i
+            skorzystania z naszych usług!</p><br><br>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto img-cover" data-src="holder.js/500x500/auto" alt="500x500"
+            style="width: 500px; height: 500px;" src="images/about/salon.jpeg" data-holder-rendered="true">
         </div>
       </div>
-    </nav>
-    <div class="title">
-      <div class="container"><h1>O nas</h1></div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Atrakcyje samochody</h2>
+          <p class="car-desc desc-margin">W naszym salonie samochodowym oferujemy szeroki wybór używanych aut w
+            najlepszym stanie
+            technicznym i w atrakcyjnych cenach. Dostępne u nas pojazdy to przede wszystkim samochody popularnych marek,
+            takie jak Audi, BMW, Mercedes, Volkswagen czy Toyota. Wszystkie auta przed sprzedażą są dokładnie sprawdzane
+            i przygotowywane, co daje pewność, że kupujesz pojazd w doskonałym stanie technicznym. Oferujemy auta w
+            różnych wersjach wyposażenia, takie jak modele z automatyczną skrzynią biegów, klimatyzacją czy nawigacją
+            GPS. Nasza oferta skierowana jest do osób ceniących sobie nie tylko wysoką jakość, ale również wygodę i
+            bezpieczeństwo. W naszym salonie zawsze stawiamy na zadowolenie klienta i chętnie doradzamy w wyborze
+            odpowiedniego auta, dostosowanego do potrzeb i wymagań. Zapraszamy do odwiedzenia naszego salonu i
+            zapoznania się z naszą ofertą - gwarantujemy, że znajdziesz u nas auto swoich marzeń!</p><br><br>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto img-cover" data-src="holder.js/500x500/auto" alt="500x500"
+            src="images/about/samochody.jpeg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Wysokiej klasy serwis</h2>
+          <p class="car-desc desc-margin">W naszym salonie samochodowym oferujemy nie tylko sprzedaż używanych aut, ale
+            również
+            profesjonalny serwis samochodowy. Nasz zespół doświadczonych mechaników posiada szeroką wiedzę oraz dostęp
+            do najnowszych technologii, dzięki czemu jest w stanie kompleksowo zająć się Twoim pojazdem. Oferujemy pełen
+            zakres usług, w tym przeglądy techniczne, wymianę oleju i filtrów, naprawy mechaniczne, wymianę opon,
+            diagnostykę komputerową i wiele innych. Wszystkie prace wykonywane są zgodnie z najwyższymi standardami i
+            wykorzystują najlepsze części zamienniki. Stawiamy na transparentność i uczciwość w naszych usługach,
+            dlatego przed rozpoczęciem prac informujemy klienta o kosztach i czasie wykonania. Nasz serwis samochodowy
+            to gwarancja nie tylko fachowej i szybkiej obsługi, ale również bezpieczeństwa i komfortu jazdy. Jeśli
+            szukasz profesjonalnego serwisu samochodowego w Poznaniu, to zapraszamy do naszego salonu - z pewnością
+            spełnimy Twoje oczekiwania!</p><br><br>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto img-cover" data-src="holder.js/500x500/auto" alt="500x500"
+            src="images/about/serwis.jpeg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
     </div>
-    <div class="container">
-      <p>
-        W naszym salonie sprzedajemy samochody nowe i uzywane. Posiadamy szeroką
-        gamę marek samochodów oraz modele o róznych specyfikacjach i cenach.
-        Zatrudniamy najlepszych sprzedawców samochodowych, ktrórzy chętnie
-        pomogą w wyborze odpowiedniego pojazdu, udzielając informacji o
-        specyfikacjach technicznych, wyposazeniu i cenie samochodu. Oferujemy
-        równiez usługi finansowania, ubezpieczenia i serwisu samochodowego. W
-        naszym salonie znajdziesz roznorodna ofertę samochodów, oraz szerego
-        usług zwiazanych z ich zakupem, uzytkowaniem oraz serwisowaniem.
-      </p>
-    </div>
-  </body>
+  </div>
+
+</body>
+
 </html>
