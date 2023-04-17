@@ -35,7 +35,7 @@ export const categories = [
         name: "Mercedes",
         description: `  Mercedes-Benz to niemiecka marka samochodów luksusowych i premium, założona w 1926 roku. Nazwa pochodzi od
         imienia córki jednego z założycieli firmy, Emil Jellinek, który zaczął...`,
-        image: "images/main/mercedes/vw.jpeg",
+        image: "images/main/mercedes.jpeg",
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export const categories = [
 ]
 
 export const categoryDetails = [
-    {
+{
     id: 0,
     categoryId: 0,
     name: "Kia",
@@ -119,7 +119,7 @@ export const categoryDetails = [
     ]
 
 },
-    {
+{
     id: 2,
     categoryId: 2,
     name: "Ford",
@@ -151,7 +151,7 @@ export const categoryDetails = [
             year: 2015,
             price: 89800,
             image: "images/modele/fordMustang.jpeg"
-        }
+        },
         {
             id: 3,
             name: "Ford Explorer",
@@ -198,7 +198,7 @@ export const categoryDetails = [
         }
     ]
 
-}
+},
 {
     id: 4,
     categoryId: 4,
@@ -234,7 +234,7 @@ export const categoryDetails = [
         }
     ]
 
-}
+},
 {
     id: 5,
     categoryId: 5,

@@ -44,6 +44,11 @@
   padding: 24px;
 }
 
+.card-btn {
+  display: flex;
+  justify-content: right;
+}
+
 .pictures {
   display: flex;
   flex-direction: row;
