@@ -122,3 +122,8 @@ p {
 .card-title-margin {
   margin-top: 10px;
 }
+
+.btn-end {
+  text-align: end;
+  margin-top: 25px;
+}
