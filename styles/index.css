@@ -127,3 +127,7 @@ p {
   text-align: end;
   margin-top: 25px;
 }
+
+tr {
+  width: 50px;
+}

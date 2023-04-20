@@ -62,10 +62,20 @@
         <h2 class="box-title mt-1">Kia Sportage</h2>
         <p>Kia Sportage to popularny SUV produkowany przez południowokoreańską firmę Kia Motors. Samochód ten jest
           dostępny na rynku od 1993 roku, a w trakcie swojej ponad 30-letniej historii przeszedł kilka zmian i
-          modernizacji.</p>
-          <h2 class="mt-5">
-            $153<small class="text-success"></small>
-          </h2>
+          modernizacji. Obecna generacja Kia Sportage została wprowadzona na rynek w 2016 roku, a w 2021 roku przeszła
+          kolejną modernizację. Samochód ten charakteryzuje się nowoczesnym i dynamicznym designem, z dużymi
+          reflektorami i charakterystyczną, szerszą od góry ku dołowi, atrapą chłodnicy.
+          Kia Sportage oferuje przestronne wnętrze, które jest dobrze wykończone i wyposażone w nowoczesne technologie.
+          Samochód może pomieścić pięć osób i posiada dużą przestrzeń bagażową. Na desce rozdzielczej znajduje się
+          dotykowy ekran systemu multimedialnego z funkcją nawigacji oraz systemu audio, a także wiele innych funkcji.
+        </p><br><br>
+        <p class="card-text">
+          Cena od <span class="val">92 000</span> zł
+        </p>
+        <br />
+        <p class="card-text">
+          <small class="text-muted">Cena netto</small>
+        </p>
 
       </div>
 
@@ -168,20 +178,132 @@
 
         </div>
 
-        <div class="btn-end">
-      
+        <!-- <div class="btn-end">
+
           <button class="btn btn-outline-secondary btn-rounded mr-1" data-toggle="tooltip" title=""
             data-original-title="Add to cart">
             <i class="fa fa-shopping-cart"></i>
             Skontaktuj się z nami
           </button>
           <button class="btn btn-secondary btn-rounded">Kup teraz</button>
-        </div>
+        </div> -->
 
 
       </div>
 
+    </div>
 
+
+
+
+    <div class="row mb-2 mt-5">
+      <div class="col-lg-7 col-md-7 col-sm-12">
+
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Metoda finansowania</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Wybierz...</option>
+              <option>leasing</option>
+              <option>gotówka</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Imię i nazwisko</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom06" class="form-label">Email</label>
+            <div class="input-group has-validation">
+
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required>
+              <div class="invalid-feedback">
+                <!-- Please choose a username. -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Miasto</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Numer telefonu</label>
+            <input type="tel" class="form-control" id="validationCustom04" required>
+            <!-- <option selected disabled value="">Choose...</option>
+              <option>...</option> -->
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Kod pocztowy</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Wyrażam zgodę na przetwarzanie moich danych osobowych przez CarSpace sp z o.o., z siedzibą w Warszawie
+                ul. Kartograficzna 10, w celach związanych z realizacją zamówienia.
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <h3 class="box-title">Podsumowanie</h3>
+        <table class="table table-borderless mt-3">
+          <tr>
+            <td>   <small class="text-muted">Cena auta</small></td>
+            <td></td>
+            <td>92 000zł</td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">2</th> -->
+            <td>   <small class="text-muted">Cena za akcesiria</small></td>
+            <td></td>
+            <td>3200zł</td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">3</th> -->
+            <td>   <small class="text-muted">Cena łącznie</small></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">3</th> -->
+            <td>   <small class="text-muted">vat</small></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">3</th> -->
+            <td> <strong>Do zapłaty</strong> </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <div class="card-btn">
+          <a href="details.html?id=1"
+            class="btn btn-secondary justify-content-center col-6">Zamów</a>
+        </div>
+
+      </div>
 
     </div>
 

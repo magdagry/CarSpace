@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <link href="styles/index.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <title>KIA</title>
 </head>
 
@@ -45,29 +46,17 @@
     <nav class="breadcrump-margin" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">CarSpace</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Kia</li>
+        <li id="bradcrampTitle" class="breadcrumb-item active " aria-current="page"></li>
       </ol>
     </nav>
 
-    <h2>KIA</h2>
-    <div class="car-desc">Kia to marka samochodowa pochodząca z Korei Południowej, założona w 1944 roku. Obecnie jest
-      jednym z największych producentów samochodów na świecie, z siecią sprzedaży i serwisów w ponad 190 krajach.
-      Kia znana jest z produkcji szerokiej gamy samochodów, w tym kompaktowych i miejskich modeli, jak również SUV-ów,
-      crossoverów i samochodów sportowych. W ostatnich latach firma koncentruje się na rozwijaniu swojej oferty
-      samochodów elektrycznych i hybrydowych.
-      Kia słynie z oferowania wysokiej jakości i innowacyjnych samochodów w przystępnej cenie. Firma stawia na
-      nowoczesny design i zaawansowane technologie, takie jak inteligentne systemy bezpieczeństwa i rozrywki. W
-      ostatnich latach Kia zdobyła wiele nagród i wyróżnień, w tym tytuł "Najlepszej Marki Samochodowej" w rankingu
-      "Best Global Brands" magazynu Interbrand.
-      Ważnym elementem strategii marki Kia jest troska o środowisko naturalne. Firma koncentruje się na rozwijaniu
-      samochodów z niższym poziomem emisji spalin i coraz większą liczbą modeli elektrycznych.
-      Podsumowując, Kia to innowacyjna marka samochodowa, oferująca wysokiej jakości pojazdy w przystępnej cenie, które
-      są jednocześnie przyjazne dla środowiska.</div>
+    <h2 id="carName" ></h2>
+    <div id="carDescription" class="car-desc"></div>
 
 
 
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-2">
-
+    <div id="cards" class="row row-cols-1 row-cols-md-2 g-4 mb-2">
+<!-- 
       <div class="col">
         <div class="card">
           <div class="row g-0">
@@ -100,9 +89,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col">
+      <!-- <div class="col">
         <div class="card">
           <div class="row g-0">
             <div class="col-md-6">
@@ -134,9 +123,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col">
+      <!-- <div class="col">
         <div class="card">
           <div class="row g-0">
             <div class="col-md-6">
@@ -168,7 +157,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
@@ -184,7 +173,12 @@
   </div>
 
 
-
+  <script type="module" src="data/data.js"></script>
+  <script type="module" src="scripts/common.js"></script>
+  <script type="module" src="scripts/cars.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
