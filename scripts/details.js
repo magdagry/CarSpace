@@ -19,6 +19,7 @@ $(function(){
             $("#detailName").append(detail.name);
             $("#brandDescription").append(detail.description);
             $("#brandPrice").append(detail.price);
+            $("#breadcrumbCategory").append(detail.brand);
 
             const image = `<img src="${detail.image}" class="img-fluid">`;
             $("#brandImage").append(image);
