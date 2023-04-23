@@ -13,6 +13,7 @@ $(function(){
         console.log(brandDetails);
 
         if(brandDetails != undefined){
+            $("#pageTitle").append(brandDetails.name);
             $("#bradcrampTitle").append(brandDetails.name);
             $("#carName").append(brandDetails.name);
             $("#carDescription").append(brandDetails.description);

@@ -1,13 +1,13 @@
 export const categories = [
     {
-        id: 0,
+        id: 1,
         name: "Kia",
         description: `Kia to marka samochodowa pochodząca z Korei Południowej, założona w 1944
         roku. Obecnie jest jednym z największych producentów samochodów na świecie...`,
         image: "images/main/kia.jpeg",
     },
     {
-        id: 1,
+        id: 2,
         name: "Dacia",
         description: `Dacia to marka samochodowa pochodząca z Rumunii, założona w
         1966 roku. Firma
@@ -15,7 +15,7 @@ export const categories = [
         image: "images/main/dacia.jpeg",
     },
     {
-        id: 2,
+        id: 3,
         name: "Ford",
         description: `Ford to amerykańska marka samochodów, która ma bogatą
         historię i oferuje
@@ -23,7 +23,7 @@ export const categories = [
         image: "images/main/ford.jpeg",
     },
     {
-        id: 3,
+        id: 4,
         name: "Volkswagen",
         description: `Volkswagen to niemiecka marka samochodów, znana z jakości
         wykonania,
@@ -31,14 +31,14 @@ export const categories = [
         image: "images/main/vw.jpeg",
     },
     {
-        id: 4,
+        id: 5,
         name: "Mercedes",
         description: `  Mercedes-Benz to niemiecka marka samochodów luksusowych i premium, założona w 1926 roku. Nazwa pochodzi od
         imienia córki jednego z założycieli firmy, Emil Jellinek, który zaczął...`,
         image: "images/main/mercedes.jpeg",
     },
     {
-        id: 5,
+        id: 6,
         name: "Renault",
         description: `Renault to francuska marka samochodów, która oferuje wiele różnych modeli, od małych miejskich aut po duże
         vany i crossovery. Jedną z największych zalet samochodów Renault...`,
@@ -49,13 +49,13 @@ export const categories = [
 
 export const categoryDetails = [
 {
-    id: 0,
-    categoryId: 0,
+    id: 1,
+    categoryId: 1,
     name: "Kia",
     description: `Kia to marka samochodowa pochodząca z Korei Południowej, założona w 1944 roku. Obecnie jest jednym z największych producentów samochodów na świecie, z siecią sprzedaży i serwisów w ponad 190 krajach. Kia znana jest z produkcji szerokiej gamy samochodów, w tym kompaktowych i miejskich modeli, jak również SUV-ów, crossoverów i samochodów sportowych. W ostatnich latach firma koncentruje się na rozwijaniu swojej oferty samochodów elektrycznych i hybrydowych. Kia słynie z oferowania wysokiej jakości i innowacyjnych samochodów w przystępnej cenie. Firma stawia na nowoczesny design i zaawansowane technologie, takie jak inteligentne systemy bezpieczeństwa i rozrywki. W ostatnich latach Kia zdobyła wiele nagród i wyróżnień, w tym tytuł "Najlepszej Marki Samochodowej" w rankingu "Best Global Brands" magazynu Interbrand. Ważnym elementem strategii marki Kia jest troska o środowisko naturalne. Firma koncentruje się na rozwijaniu samochodów z niższym poziomem emisji spalin i coraz większą liczbą modeli elektrycznych. Podsumowując, Kia to innowacyjna marka samochodowa, oferująca wysokiej jakości pojazdy w przystępnej cenie, które są jednocześnie przyjazne dla środowiska.` ,
     cars: [
         {
-            id: 0,
+            id: 11,
             name: "Kia Stringer",
             enginePower: 365,
             mileage: 84000,
@@ -64,7 +64,7 @@ export const categoryDetails = [
             image: "images/modele/Kia/KiaSt.jpeg"
         },
         {
-            id: 1,
+            id: 12,
             name: "Kia Sportage",
             enginePower: 130,
             mileage: 74637,
@@ -73,7 +73,7 @@ export const categoryDetails = [
             image: "images/modele/Kia/kiaSp.jpeg"
         },
         {
-            id: 2,
+            id: 13,
             name: "Kia Ceed",
             enginePower: 81,
             mileage: 188365,
@@ -84,8 +84,8 @@ export const categoryDetails = [
     ]
 },
 {
-    id: 1,
-    categoryId: 1,
+    id: 2,
+    categoryId: 2,
     name: "Dacia",
     description: `Dacia to marka samochodowa pochodząca z Rumunii, założona w 1966 roku. Firma specjalizuje się w produkcji przystępnych cenowo samochodów dla masowego odbiorcy.
     Dacia oferuje szeroką gamę samochodów, w tym miejskie modele, samochody rodzinne, SUV-y i dostawcze. Modele Dacii charakteryzują się prostą, ale funkcjonalną stylistyką oraz prostą i solidną konstrukcją. Dacia słynie z tego, że oferuje samochody o stosunkowo niskiej cenie, ale jednocześnie nie rezygnuje z jakości.
@@ -95,7 +95,7 @@ export const categoryDetails = [
     Podsumowując, Dacia to marka samochodowa oferująca solidne i funkcjonalne modele w przystępnej cenie, która cieszy się uznaniem kierowców z całego świata.` ,
     cars: [
         {
-            id: 0,
+            id: 21,
             name: "Dacia Logan",
             enginePower: 75,
             mileage: 59000,
@@ -104,7 +104,7 @@ export const categoryDetails = [
             image: "images/modele/dacia/daciaLogan.jpeg"
         },
         {
-            id: 1,
+            id: 4,
             name: "Dacia Duster",
             enginePower: 75,
             mileage: 12500,
@@ -113,7 +113,7 @@ export const categoryDetails = [
             image: "images/modele/dacia/daciaDuster.jpeg"
         },
         {
-            id: 2,
+            id: 5,
             name: "Dacia Sandero",
             enginePower: 90,
             mileage: 118000,
@@ -125,8 +125,8 @@ export const categoryDetails = [
 
 },
 {
-    id: 2,
-    categoryId: 2,
+    id: 3,
+    categoryId: 3,
     name: "Ford",
     description: `Ford to amerykańska marka samochodów, która ma bogatą historię i oferuje wiele różnych modeli, od małych hatchbacków po duże SUV-y i pick-upy. Jedną z największych zalet samochodów Ford jest ich trwałość i niezawodność. Ford to jedna z najstarszych i najbardziej uznanych marek samochodowych na świecie, co przekłada się na ich wysoką jakość. Ford stawia na jakość i wytrzymałość swoich produktów, co przekłada się na długą żywotność samochodów.
     Inną zaletą samochodów Ford jest ich innowacyjność i zaawansowana technologia. Ford wprowadza na rynek wiele innowacyjnych rozwiązań, takich jak systemy bezpieczeństwa, systemy multimedialne i nowoczesne silniki, które oferują wyższą moc i lepsze osiągi.
@@ -173,8 +173,8 @@ export const categoryDetails = [
     ]
 },
 {
-    id: 3,
-    categoryId: 3,
+    id: 4,
+    categoryId: 4,
     name: "Volkswagen",
     description: `
     Volkswagen to niemiecka marka samochodów, znana z jakości wykonania, innowacyjności i stylowego designu swoich produktów. Marka ta cieszy się dużą popularnością na całym świecie i jest uznawana za jedną z najbardziej wpływowych w branży motoryzacyjnej.
@@ -213,8 +213,8 @@ export const categoryDetails = [
 
 },
 {
-    id: 4,
-    categoryId: 4,
+    id: 5,
+    categoryId: 5,
     name: "Mercedes",
     description: `Mercedes-Benz to niemiecka marka samochodów luksusowych i premium, założona w 1926 roku. Nazwa pochodzi od imienia córki jednego z założycieli firmy, Emil Jellinek, który zaczął produkować samochody pod tą marką w 1901 roku.
     Mercedes-Benz jest znana z produkcji samochodów klasy premium, które charakteryzują się wysoką jakością wykonania, wygodą, bezpieczeństwem i innowacyjnymi technologiami. Firma oferuje szeroki wybór modeli, w tym sedany, coupé, kabriolety, samochody terenowe i sportowe, a także modele z napędem elektrycznym.
@@ -251,8 +251,8 @@ export const categoryDetails = [
 
 },
 {
-    id: 5,
-    categoryId: 5,
+    id: 6,
+    categoryId: 6,
     name: "Renault",
     description: `Renault to francuska marka samochodów, która oferuje wiele różnych modeli, od małych miejskich aut po duże vany i crossovery. Jedną z największych zalet samochodów Renault jest ich innowacyjność - marka zawsze dąży do wprowadzania nowych technologii, dzięki czemu ich samochody są na bieżąco z trendami motoryzacyjnymi. Renault oferuje również wiele modeli samochodów elektrycznych i hybrydowych, co przyczynia się do ochrony środowiska naturalnego.
     Inną zaletą samochodów Renault jest ich wysoka jakość i trwałość. Marka stawia na jakość swoich produktów, co przekłada się na satysfakcję klientów. W samochodach Renault znajdziemy wygodne wnętrza, ergonomiczne fotele, wiele miejsca dla pasażerów i bagażu, a także wiele udogodnień, takich jak klimatyzacja czy systemy multimedialne.
@@ -260,7 +260,7 @@ export const categoryDetails = [
     Ostatecznie, samochody Renault są stosunkowo tanie w porównaniu z niektórymi innymi markami, co czyni je bardziej dostępnymi dla szerszego grona klientów. Dostępność i niskie ceny są z pewnością dużymi atutami samochodów Renault, co przyciąga wiele osób poszukujących nowego samochodu.` ,
     cars: [
         {
-            id: 0,
+            id: 61,
             name: "Renault Clio",
             enginePower: 200,
             mileage: 124448,
@@ -269,7 +269,7 @@ export const categoryDetails = [
             image: "images/modele/renault/renaultClio.jpeg"
         },
         {
-            id: 1,
+            id: 62,
             name: "Renault Grand Scenic",
             enginePower: 130,
             mileage: 148413,
@@ -278,7 +278,7 @@ export const categoryDetails = [
             image: "images/modele/renault/renaultGScenic.jpg"
         },
         {
-            id: 2,
+            id: 62,
             name: "Renault Captur",
             enginePower: 91,
             mileage: 18400,
@@ -287,7 +287,7 @@ export const categoryDetails = [
             image: "images/modele/renault/renaultCaptur.jpg"
         },
         {
-            id: 3,
+            id: 64,
             name: "Renault Koleos",
             enginePower: 177,
             mileage: 157000,
@@ -298,4 +298,69 @@ export const categoryDetails = [
     ]
 
 }
+]
+
+export const brandDetails = [
+    {
+        id: 11,
+        name: "Kia Stinger",
+        description: "Kia Stinger to sportowe, czteroosobowe coupe, które zostało wprowadzone na rynek w 2017 roku. Samochód ten jest oferowany z dwoma silnikami benzynowymi: 2.0-litrowym czterocylindrowym silnikiem o mocy 255 KM lub 3.3-litrowym V6 o mocy 365 KM. Kia Stinger oferowana jest także w wersji z napędem na cztery koła oraz z automatyczną skrzynią biegów.",
+        price: 73000,
+        image: "images/modele/Kia/KiaSt.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "3.3 T-GDI V6 GT AWD"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2018
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 39500
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 370
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Benzyna"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Sedan"
+            }
+        ],
+        accessories: [
+            {
+                id: 1,
+                name: "Kamera cofania",
+                price: 800
+            },{
+                id: 2,
+                name: "Przyciemnianie tylnich szyb",
+                price: 400
+            },{
+                id: 3,
+                name: "Ogrzewanie postojowe",
+                price: 3000
+            },{
+                id: 4,
+                name: "Relingi dachowe",
+                price: 600
+            },{
+                id: 5,
+                name: "System alarmowy",
+                price: 1200
+            },{
+                id: 6,
+                name: "Felgi aluminiowe",
+                price: 1500
+            }
+        ]
+    }
 ]

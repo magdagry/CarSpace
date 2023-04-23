@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-
   <link href="styles/index.css" rel="stylesheet" />
-  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title id="pageTitle"></title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">CarSpace</a></li>
         <li class="breadcrumb-item active" aria-current="page"><a href="cars.html">Kia</a>></li>
-        <li class="breadcrumb-item active" aria-current="page">Kia Sportage</li>
+        <li id="breadcrumbName" class="breadcrumb-item active" aria-current="page"></li>
       </ol>
     </nav>
 
@@ -56,21 +56,14 @@
 
     <div class="row">
       <div class="col-lg-5 col-md-5 col-sm-6">
-        <div class="white-box text-center"><img src="images/modele/kia/kiaSp.jpeg" class="img-fluid"></div>
+        <div id="brandImage" class="white-box text-center">
+        </div>
       </div>
       <div class="col-lg-7 col-md-7 col-sm-6">
-        <h2 class="box-title mt-1">Kia Sportage</h2>
-        <p>Kia Sportage to popularny SUV produkowany przez południowokoreańską firmę Kia Motors. Samochód ten jest
-          dostępny na rynku od 1993 roku, a w trakcie swojej ponad 30-letniej historii przeszedł kilka zmian i
-          modernizacji. Obecna generacja Kia Sportage została wprowadzona na rynek w 2016 roku, a w 2021 roku przeszła
-          kolejną modernizację. Samochód ten charakteryzuje się nowoczesnym i dynamicznym designem, z dużymi
-          reflektorami i charakterystyczną, szerszą od góry ku dołowi, atrapą chłodnicy.
-          Kia Sportage oferuje przestronne wnętrze, które jest dobrze wykończone i wyposażone w nowoczesne technologie.
-          Samochód może pomieścić pięć osób i posiada dużą przestrzeń bagażową. Na desce rozdzielczej znajduje się
-          dotykowy ekran systemu multimedialnego z funkcją nawigacji oraz systemu audio, a także wiele innych funkcji.
-        </p><br><br>
+        <h2 id="detailName" class="box-title mt-1"></h2>
+        <p id="brandDescription"></p><br><br>
         <p class="card-text">
-          Cena od <span class="val">92 000</span> zł
+          Cena od <span id="brandPrice" class="val"></span> zł
         </p>
         <br />
         <p class="card-text">
@@ -83,32 +76,32 @@
         <h3 class="box-title mt-5">Szczegóły</h3>
         <div class="table-responsive">
           <table class="table table-striped table-product">
-            <tbody>
-              <tr>
+            <tbody id="detailsTable">
+              <!-- <tr>
                 <td width="390">Wersja</td>
                 <td>1.6 T-GDI Business Line 2WD
                 </td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>Rok produkcji</td>
                 <td>2018</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>Przebieg</td>
                 <td>62 000</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>Moc silnika</td>
                 <td>177 KM</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>Rodzaj paliwa</td>
                 <td>Benzyna</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>typ nadwozia</td>
                 <td>SUV</td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
         </div>
@@ -118,8 +111,8 @@
         <h3 class="box-title mt-5">Akcesoria</h3>
         <div class="table-responsive">
           <table class="table table-striped table-product">
-            <tbody>
-              <tr>
+            <tbody id="accesoriesTable" >
+              <!-- <tr>
                 <td width="60">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -127,8 +120,8 @@
                 </td>
                 <td>Kamera cofania </td>
                 <td>800zł</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -136,8 +129,8 @@
                 </td>
                 <td>Przyciemnianie tylnich szyb</td>
                 <td>400zł</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -145,8 +138,8 @@
                 </td>
                 <td>Ogrzewanie postojowe</td>
                 <td>3000zł</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -154,8 +147,8 @@
                 </td>
                 <td>Relingi dachowe</td>
                 <td>600zł</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -163,8 +156,8 @@
                 </td>
                 <td>System alarmowy</td>
                 <td>1200</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <td>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" checked>
@@ -172,7 +165,7 @@
                 </td>
                 <td>Felgi aluminiowe</td>
                 <td>1500zł</td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
 
@@ -271,24 +264,24 @@
         <h3 class="box-title">Podsumowanie</h3>
         <table class="table table-borderless mt-3">
           <tr>
-            <td>   <small class="text-muted">Cena auta</small></td>
+            <td> <small class="text-muted">Cena auta</small></td>
             <td></td>
             <td>92 000zł</td>
           </tr>
           <tr>
             <!-- <th scope="row">2</th> -->
-            <td>   <small class="text-muted">Cena za akcesiria</small></td>
+            <td> <small class="text-muted">Cena za akcesiria</small></td>
             <td></td>
             <td>3200zł</td>
           </tr>
           <tr>
             <!-- <th scope="row">3</th> -->
-            <td>   <small class="text-muted">Cena łącznie</small></td>
+            <td> <small class="text-muted">Cena łącznie</small></td>
             <td></td>
           </tr>
           <tr>
             <!-- <th scope="row">3</th> -->
-            <td>   <small class="text-muted">vat</small></td>
+            <td> <small class="text-muted">vat</small></td>
             <td></td>
           </tr>
           <tr>
@@ -299,8 +292,7 @@
         </table>
 
         <div class="card-btn">
-          <a href="details.html?id=1"
-            class="btn btn-secondary justify-content-center col-6">Zamów</a>
+          <a href="details.html?id=1" class="btn btn-secondary justify-content-center col-6">Zamów</a>
         </div>
 
       </div>
@@ -328,7 +320,9 @@
 
 
 
-  <script src="/index.js"></script>
+  <script type="module" src="data/data.js"></script>
+  <script type="module" src="scripts/common.js"></script>
+  <script type="module" src="scripts/details.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
