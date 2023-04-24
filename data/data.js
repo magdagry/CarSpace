@@ -183,7 +183,7 @@ export const categoryDetails = [
     W sumie Volkswagen to marka, która kojarzy się z jakością, innowacyjnością i prestiżem. Dzięki swojemu zasięgowi i uznaniu, marka ta z pewnością będzie kontynuować swoją pozycję na rynku motoryzacyjnym i w przyszłości.` ,
     cars: [
         {
-            id: 0,
+            id: 41,
             name: "Volkswagen Passat",
             enginePower: 120,
             mileage: 31000,
@@ -192,7 +192,7 @@ export const categoryDetails = [
             image: "images/modele/vw/VWpassat.jpeg"
         },
         {
-            id: 1,
+            id: 42,
             name: "Volkswagen Golf",
             enginePower: 136,
             mileage: 161627,
@@ -221,7 +221,7 @@ export const categoryDetails = [
     Jako jedna z najstarszych i najbardziej znanych marek samochodowych na świecie, Mercedes-Benz zdobył wiele nagród i wyróżnień za swoje osiągnięcia w dziedzinie inżynierii samochodowej i technologii. Wielu kierowców uważa, że samochody tej marki są synonimem luksusu, wygody i prestiżu.` ,
     cars: [
         {
-            id: 0,
+            id: 51,
             name: "Mercedes klasa A",
             enginePower: 109,
             mileage: 258024,
@@ -230,7 +230,7 @@ export const categoryDetails = [
             image: "images/modele/mercedes/mercedesA.jpeg"
         },
         {
-            id: 1,
+            id: 52,
             name: "Mercedes klasa G",
             enginePower: 136,
             mileage: 381000,
@@ -239,7 +239,7 @@ export const categoryDetails = [
             image: "images/modele/mercedes/mercedesG.jpg"
         },
         {
-            id: 2,
+            id: 53,
             name: "Mercedes klasa E",
             enginePower: 211,
             mileage: 113000,
@@ -278,7 +278,7 @@ export const categoryDetails = [
             image: "images/modele/renault/renaultGScenic.jpg"
         },
         {
-            id: 62,
+            id: 63,
             name: "Renault Captur",
             enginePower: 91,
             mileage: 18400,
@@ -303,6 +303,7 @@ export const categoryDetails = [
 export const brandDetails = [
     {
         id: 11,
+        categoryId: 1,
         brand: "Kia",
         name: "Kia Stinger",
         description: "Kia Stinger to sportowe, czteroosobowe coupe, które zostało wprowadzone na rynek w 2017 roku. Samochód ten jest oferowany z dwoma silnikami benzynowymi: 2.0-litrowym czterocylindrowym silnikiem o mocy 255 KM lub 3.3-litrowym V6 o mocy 365 KM. Kia Stinger oferowana jest także w wersji z napędem na cztery koła oraz z automatyczną skrzynią biegów.",
@@ -366,6 +367,7 @@ export const brandDetails = [
     },
     {
         id: 12,
+        categoryId: 1,
         brand: "Kia",
         name: "Kia Sportage",
         description: `Kia Sportage to popularny SUV produkowany przez południowokoreańską firmę Kia Motors. Samochód ten jest dostępny na rynku od 1993 roku, a w trakcie swojej ponad 30-letniej historii przeszedł kilka zmian i modernizacji.
@@ -434,6 +436,7 @@ export const brandDetails = [
     },
     {
         id: 13,
+        categoryId: 1,
         brand: "Kia",
         name: "Kia Ceed",
         description: `Kia Ceed to samochód osobowy segmentu C produkowany przez południowokoreańską markę Kia Motors od 2006 roku. Jest to popularny model oferowany w wielu wersjach nadwoziowych, w tym jako hatchback, kombi i sedan. Kia Ceed wyróżnia się nowoczesnym i atrakcyjnym designem, który został zaprojektowany z myślą o europejskich kierowcach. Wnętrze samochodu jest przestronne i funkcjonalne, oferując wygodne miejsca zarówno dla kierowcy, jak i pasażerów. Kia Ceed to popularny wybór w segmencie samochodów kompaktowych, oferujący wygodną jazdę, dobre osiągi i atrakcyjny wygląd.`,
@@ -497,6 +500,7 @@ export const brandDetails = [
     },
     {
         id: 21,
+        categoryId: 2,
         brand: "Dacia",
         name: "Dacia Logan",
         description: `Model ten zadebiutował na rynku w 2004 roku i od tamtej pory zdobył popularność w wielu krajach na całym świecie, ze względu na swoją prostotę, niezawodność i przystępną cenę. Dacia Logan cieszy się popularnością wśród klientów, którzy szukają prostego, niezawodnego i przede wszystkim niedrogiego samochodu. Jest to także często wybierany model przez floty samochodowe oraz taksówkarzy, ze względu na niskie koszty eksploatacji i dostępność części zamiennych.`,
@@ -560,6 +564,7 @@ export const brandDetails = [
     },
     {
         id: 22,
+        categoryId: 2,
         brand: "Dacia",
         name: "Dacia Duster",
         description: `Dacia Duster to kompaktowy SUV produkowany przez rumuńską firmę motoryzacyjną Dacia, która jest częścią koncernu Renault. Samochód ten został wprowadzony na rynek w 2010 roku i od tego czasu stał się popularnym modelem w Europie i innych częściach świata. Dacia Duster charakteryzuje się prostą, ale nowoczesną stylistyką, dużą przestrzenią w kabinie pasażerskiej i bagażniku oraz przystępną ceną w stosunku do innych SUV-ów na rynku. Samochód ten jest popularny zarówno wśród klientów indywidualnych, jak i wśród flotowych, czyli firmowych.`,
@@ -623,6 +628,7 @@ export const brandDetails = [
     },
     {
         id: 23,
+        categoryId: 2,
         brand: "Dacia",
         name: "Dacia Sandero",
         description: `Dacia Sandero to kompaktowy samochód osobowy produkowany przez rumuńską firmę Dacia, która jest częścią koncernu Renault-Nissan-Mitsubishi. Pod względem wyglądu zewnętrznego, Dacia Sandero wyróżnia się prostą i funkcjonalną sylwetką. Wnętrze samochodu jest przestronne i oferuje odpowiednią ilość miejsca dla kierowcy i pasażerów. Materiały wykorzystane do wykończenia wnętrza są proste i trwałe. Podsumowując, Dacia Sandero to prosta i funkcjonalna propozycja w segmencie kompaktowych samochodów osobowych, oferująca przestronne wnętrze, niskie koszty użytkowania i różnorodne wersje wyposażenia.`,
@@ -686,6 +692,7 @@ export const brandDetails = [
     },
     {
         id: 31,
+        categoryId: 3,
         brand: "Ford",
         name: "Ford Fiesta",
         description: `Ford Fiesta to popularny samochód osobowy, produkowany przez amerykańską firmę Ford Motor Company od 1976 roku. Samochód należy do segmentu B i jest jednym z najpopularniejszych modeli w swojej klasie na całym świecie. Ford Fiesta to samochód, który oferuje bardzo dobrą jakość wykonania, dynamiczne osiągi, komfortową jazdę i nowoczesne rozwiązania technologiczne, a jednocześnie jest przystępny cenowo i oszczędny w eksploatacji. Dlatego cieszy się on ogromną popularnością zarówno wśród kierowców indywidualnych, jak i wśród flot samochodowych i wypożyczalni.`,
@@ -748,6 +755,7 @@ export const brandDetails = [
         ]
     },{
         id: 32,
+        categoryId: 3,
         brand: "Ford",
         name: "Ford Focus",
         description: `Ford Focus to samochód osobowy produkowany przez amerykańską firmę Ford Motor Company od 1998 roku. Jest to popularny model, który zdobył wiele nagród i wyróżnień za swoje osiągi, design i innowacyjne rozwiązania. Ford Focus charakteryzuje się również dobrą jakością jazdy i precyzyjnym prowadzeniem. Samochód oferuje wygodne i przestronne wnętrze, a także duży bagażnik, co czyni go świetnym wyborem zarówno dla codziennych dojazdów do pracy, jak i na dalsze wyjazdy.`,
@@ -809,7 +817,8 @@ export const brandDetails = [
                 }
         ]
     },{
-        id: 32,
+        id: 33,
+        categoryId: 3,
         brand: "Ford",
         name: "Ford Mustang",
         description: `Ford Mustang to kultowy samochód sportowy produkowany przez amerykańską firmę Ford Motor Company od 1964 roku. Znany z charakterystycznego designu i osiągów, Mustang jest jednym z najbardziej rozpoznawalnych i ikonicznych modeli samochodów na świecie. Mustang charakteryzuje się również agresywnym i wyrazistym designem, który obejmuje charakterystyczne reflektory przednie w kształcie trapezu, grilla w kształcie litery "U" oraz muskularne nadkola. Wewnątrz, Mustang oferuje wygodne i sportowe wnętrze z nowoczesnymi funkcjami, takimi jak klimatyzacja, system multimedialny i nawigacja GPS. Jako samochód sportowy, Mustang oferuje doskonałe osiągi i doskonałe prowadzenie, co czyni go idealnym dla miłośników szybkiej jazdy i adrenaliny. `,
@@ -871,7 +880,8 @@ export const brandDetails = [
                 }
         ]
     },{
-        id: 32,
+        id: 34,
+        categoryId: 3,
         brand: "Ford",
         name: "Ford Explorer",
         description: `Ford Explorer to duży SUV produkowany przez amerykańską firmę Ford Motor Company od 1990 roku. Jest to jeden z najpopularniejszych SUV-ów na rynku, oferujący przestronne wnętrze, wygodę i zaawansowane funkcje technologiczne. Explorer charakteryzuje się także doskonałymi osiągami i komfortem jazdy, co czyni go idealnym dla rodzin, które potrzebują dużego i wygodnego samochodu na długie trasy lub dla osób, które potrzebują samochodu z dużą przestrzenią ładunkową. Wraz z systemem napędu na cztery koła, Explorer może być również dobrym wyborem dla osób, które chcą pokonywać trudne warunki terenowe lub przygodowe wyprawy.`,
@@ -934,33 +944,601 @@ export const brandDetails = [
         ]
     },{
         id: 41,
+        categoryId: 4,
         brand: "Volkswagen",
         name: "Volkswagen Passat",
-        description: ``,
+        description: `Volkswagen Passat to średniej wielkości samochód osobowy produkowany przez niemiecką markę Volkswagen od 1973 roku. Wnętrze Passata cechuje się wysoką jakością wykończenia oraz nowoczesnym designem. Samochód wyposażony jest w wiele funkcjonalnych rozwiązań, takich jak system multimedialny, nawigacja satelitarna, klimatyzacja czy systemy bezpieczeństwa i asystujące podczas jazdy. Passat to samochód, który zyskał sobie uznanie za swoją niezawodność, komfort i oszczędność paliwa. Jego atrakcyjny wygląd oraz przestronne wnętrze czynią go jednym z najchętniej wybieranych modeli w swojej klasie`,
         price: 89800,
-        image: "images/modele/ford/fordExplorer.jpeg",
+        image: "images/modele/vw/vwPassat.jpeg",
         details: [
             {
                 id: 1,
                 name: "Wersja",
-                value: "V"
+                value: "1.6 TDI SCR DSG Comfortline"
 
             },{
                 id: 2,
                 name: "Rok produkcji",
-                value: 2012
+                value: 2015
             },{
                 id: 3,
                 name: "Przebieg",
-                value: 237836
+                value: 310000
             },{
                 id: 4,
                 name: "Moc silnika",
-                value: 287
+                value: 120
             },{
                 id: 5,
                 name: "Rodzaj paliwa",
-                value: "Benzyna+LPG"
+                value: "Diesel"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Kombi"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    },{
+        id: 42,
+        categoryId: 4,
+        brand: "Volkswagen",
+        name: "Volkswagen Golf",
+        description: `Volkswagen Golf to popularny kompaktowy samochód osobowy produkowany przez niemiecką markę Volkswagen od 1974 roku. Wnętrze Golfa jest funkcjonalne i przestronne, a wykończenie wykonane jest z wysokiej jakości materiałów. Samochód wyposażony jest w wiele nowoczesnych rozwiązań, takich jak system multimedialny, nawigacja satelitarna, klimatyzacja czy systemy bezpieczeństwa i asystujące podczas jazdy. Golf to samochód, który zyskał sobie uznanie za swoją niezawodność, oszczędność paliwa i dynamiczną jazdę. Jest to również jedno z najchętniej wybieranych aut w swojej klasie ze względu na swój atrakcyjny wygląd i doskonałą jakość wykonania.`,
+        price: 89800,
+        image: "images/modele/vw/vwGolf.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "Standard VII"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2017
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 161627
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 136
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Elektryczny"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Kompakt"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    },{
+        id: 51,
+        categoryId: 5,
+        brand: "Mercedes",
+        name: "Mercedes Klasa A",
+        description: `Mercedes-Benz Klasy A to model samochodu osobowego, który debiutował w 1997 roku i został zaprojektowany jako kompaktowy hatchback. Mercedes-Benz Klasy A to także samochód o nowoczesnym i dynamicznym designie, z charakterystycznym wąskim grilliem, agresywnie stylizowanymi reflektorami oraz opływową sylwetką. Cały pojazd został zaprojektowany tak, aby zapewnić zarówno komfort jazdy, jak i wysoką wydajność i osiągi, co czyni go popularnym wyborem w segmencie luksusowych samochodów kompaktowych.`,
+        price: 58500,
+        image: "images/modele/mercedes/mercedesA.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "Klasa A"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2014
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 258024
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 109
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Diesel"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Kompakt"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 52,
+        categoryId: 5,
+        brand: "Mercedes",
+        name: "Mercedes Klasa G",
+        description: `Mercedes-Benz G-Klasa, nazywana również jako G-Wagen, to luksusowy samochód terenowy produkowany przez niemiecką markę Mercedes-Benz od 1979 roku. G-Klasa to charakterystyczny pojazd, który zachował swoją kultową stylistykę od czasu wprowadzenia na rynek. Samochód charakteryzuje się wysoką pozycją siedzącą, prostokątną sylwetką oraz sztywną ramą, co czyni go idealnym do pokonywania trudnego terenu. G-Klasa to samochód, który cieszy się dużą popularnością wśród miłośników terenówki oraz osób ceniących stylowy wygląd i luksus. Jego wyjątkowa konstrukcja, charakterystyczna stylistyka oraz wysoka jakość wykonania czynią go jednym z najbardziej rozpoznawalnych i prestiżowych samochodów na rynku.`,
+        price: 109000,
+        image: "images/modele/mercedes/mercedesG.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "Klasa G"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 1994
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 381000
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 136
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Diesel"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "SUV"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 53,
+        categoryId: 5,
+        brand: "Mercedes",
+        name: "Mercedes Klasa E",
+        description: `Mercedes-Benz Klasy E to model samochodu luksusowego, który debiutował w 1993 roku i jest produkowany do dzisiaj. Jest to średniej wielkości samochód, który z powodzeniem konkurował z takimi markami jak Audi A6 czy BMW Serii 5. Mercedes-Benz Klasy E to także samochód o nowoczesnym i stylowym designie, z charakterystycznym wąskim grilliem, eleganckim wykończeniem i opływową sylwetką. Cały pojazd został zaprojektowany tak, aby zapewnić zarówno komfort jazdy, jak i wysoką wydajność i osiągi, co czyni go jednym z najbardziej pożądanych samochodów w segmencie luksusowych średniej wielkości samochodów.`,
+        price: 79900,
+        image: "images/modele/mercedes/mercedesE.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "Klasa E"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2013
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 113000
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 211
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Benzyna"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Sedan"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 53,
+        categoryId: 5,
+        brand: "Mercedes",
+        name: "Mercedes Klasa E",
+        description: `Mercedes-Benz Klasy E to model samochodu luksusowego, który debiutował w 1993 roku i jest produkowany do dzisiaj. Jest to średniej wielkości samochód, który z powodzeniem konkurował z takimi markami jak Audi A6 czy BMW Serii 5. Mercedes-Benz Klasy E to także samochód o nowoczesnym i stylowym designie, z charakterystycznym wąskim grilliem, eleganckim wykończeniem i opływową sylwetką. Cały pojazd został zaprojektowany tak, aby zapewnić zarówno komfort jazdy, jak i wysoką wydajność i osiągi, co czyni go jednym z najbardziej pożądanych samochodów w segmencie luksusowych średniej wielkości samochodów.`,
+        price: 79900,
+        image: "images/modele/mercedes/mercedesG.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "Klasa E"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2013
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 113000
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 211
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Benzyna"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Sedan"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 61,
+        categoryId: 6,
+        brand: "Renault",
+        name: "Renault Clio",
+        description: `Renault Clio to model samochodu osobowego, który zadebiutował w 1990 roku i od tego czasu jest jednym z najpopularniejszych modeli w gamie Renault. Jest to niewielki samochód klasy miejskiej. Wśród funkcji bezpieczeństwa znajdują się m.in. system ABS, system kontroli trakcji, asystent parkowania, system monitorowania martwego pola, a także wiele innych rozwiązań zapewniających wysoki poziom ochrony kierowcy i pasażerów. Renault Clio to samochód, który cieszy się uznaniem wśród kierowców, którzy szukają wydajnego, ekonomicznego i stylowego samochodu klasy miejskiej.`,
+        price: 51900,
+        image: "images/modele/renault/renaultClio.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: " 1.6 Turbo R.S EDC Sport"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2013
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 124448
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 200
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Benzyna"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Hatchback"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 62,
+        categoryId: 6,
+        brand: "Renault",
+        name: "Renault Grand Scenic",
+        description: `Renault Grand Scenic to samochód typu minivan produkowany przez francuską firmę motoryzacyjną Renault. Model ten został wprowadzony na rynek w 2004 roku. Grand Scenic to większy i bardziej przestronny odpowiednik modelu Scenic, który również jest popularnym minivanem. Co do wyglądu, Grand Scenic ma nowoczesny i elegancki design, z charakterystyczną sylwetką minivana. Podsumowując, Renault Grand Scenic to przestronny i wygodny minivan, który oferuje wiele zaawansowanych funkcji i technologii, a także zapewnia bezpieczną i wygodną jazdę dla całej rodziny.`,
+        price: 62900,
+        image: "images/modele/renault/renaultGScenic.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: " Gr 1.6 DCi Energy Limited"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2017
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 148413
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 130
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Diesel"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "Minivan"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 63,
+        categoryId: 6,
+        brand: "Renault",
+        name: "Renault Captur",
+        description: `Renault Captur to popularny kompaktowy crossover SUV (Sport Utility Vehicle) zaprojektowany i produkowany przez francuską firmę motoryzacyjną Renault. Model ten został wprowadzony na rynek w 2013 roku i od tamtej pory zyskał dużą popularność w Europie. Podsumowując, Renault Captur to popularny i wszechstronny crossover SUV, który oferuje dużo miejsca, wygodę i elastyczność w codziennym użytkowaniu. `,
+        price: 105000,
+        image: "images/modele/renault/renaultCaptur.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "1.6 E-TECH Plug-In Intens"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2021
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 18400
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 91
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Hybryda"
+            },{
+                id: 6,
+                name: "Typ nadwozia",
+                value: "SUV"
+            }
+        ],
+        accessories: [
+                {
+                    id: 1,
+                    name: "Kamera cofania",
+                    price: 800
+                },{
+                    id: 2,
+                    name: "Przyciemnianie tylnich szyb",
+                    price: 400
+                },{
+                    id: 3,
+                    name: "Ogrzewanie postojowe",
+                    price: 3000
+                },{
+                    id: 4,
+                    name: "Relingi dachowe",
+                    price: 600
+                },{
+                    id: 5,
+                    name: "System alarmowy",
+                    price: 1200
+                },{
+                    id: 6,
+                    name: "Felgi aluminiowe",
+                    price: 1500
+                }
+        ]
+    }, {
+        id: 64,
+        categoryId: 6,
+        brand: "Renault",
+        name: "Renault Koleos",
+        description: `Renault Koleos to model samochodu sportowo-użytkowego (SUV), który został wprowadzony na rynek w 2008 roku. Renault Koleos ma nowoczesny i atrakcyjny wygląd, z dużym wlotem powietrza na przedniej masce, charakterystycznymi reflektorami LED oraz opływowym kształtem karoserii. Jest to samochód o wysokim komforcie jazdy, oferujący przestronny bagażnik oraz wiele innych rozwiązań ułatwiających codzienną eksploatację. Wśród funkcji bezpieczeństwa znajdują się m.in. asystent parkowania, system ostrzegania przed niezamierzoną zmianą pasa ruchu, system monitorowania martwego pola, a także wiele innych rozwiązań zapewniających wysoki poziom ochrony kierowcy i pasażerów.`,
+        price: 84800,
+        image: "images/modele/renault/renaultKoleos.jpeg",
+        details: [
+            {
+                id: 1,
+                name: "Wersja",
+                value: "2.0 DCi Intens 4x4 X-Tronic"
+
+            },{
+                id: 2,
+                name: "Rok produkcji",
+                value: 2018
+            },{
+                id: 3,
+                name: "Przebieg",
+                value: 157000
+            },{
+                id: 4,
+                name: "Moc silnika",
+                value: 177
+            },{
+                id: 5,
+                name: "Rodzaj paliwa",
+                value: "Diesel"
             },{
                 id: 6,
                 name: "Typ nadwozia",
