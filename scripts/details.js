@@ -1,9 +1,10 @@
 import { getParamValueFromUrl } from "../scripts/common.js";
 import { brandDetails } from "../data/data.js";
 
+let totalPrice = 0;
 
 $(function(){
-    var id = getParamValueFromUrl('id');
+    const id = getParamValueFromUrl('id');
     console.log('Id: ', id);
 
     const allBrandDetails = brandDetails;
@@ -17,6 +18,7 @@ $(function(){
         console.log(detail);
 
         if(detail != undefined){
+            totalPrice = detail.price;
             $("#breadcrumbCategory").append(`<a href="cars.html?id=${detail.categoryId}">${detail.brand}</a>`);
             $("#pageTitle").text(detail.name);
             $("#breadcrumbName").text(detail.name);
@@ -43,7 +45,7 @@ $(function(){
                 const accessoriesPrice = calculateAccessoriesPrice();
                 $("#accessoriesPrice").text(accessoriesPrice);
 
-                const totalPrice = accessoriesPrice + detail.price;
+                totalPrice = accessoriesPrice + detail.price;
                 $("#totalPrice").text(totalPrice);
             })
 
@@ -123,7 +125,7 @@ function prepareForm() {
         form.addEventListener('click', event => {
             event.preventDefault();
             event.stopPropagation();
-            
+
         if (!form.checkValidity()) {
             // event.preventDefault();
             // event.stopPropagation();
@@ -135,7 +137,7 @@ function prepareForm() {
         console.log('ok');
         // form.classList.add('was-validated');
 
-        window.location.href = "success.html";
+        window.location.href = `success.html?price=${totalPrice}`;
         },true)
 
         
