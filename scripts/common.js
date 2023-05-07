@@ -3,7 +3,7 @@ export function getParamValueFromUrl(paramName) {
     const urlParams = new URLSearchParams(queryString);
     
     if (!urlParams.has(paramName)) return null;
-    var paramValue = urlParams.get(paramName)
+    const paramValue = urlParams.get(paramName)
     return paramValue;
 }
 

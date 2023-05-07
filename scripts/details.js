@@ -49,9 +49,9 @@ $(function(){
                 $("#totalPrice").text(totalPrice);
             })
 
-            $("#submit").click(function(event) {
+            // $("#submit").click(function(event) {
                 
-            });
+            // });
         }
     }
 
@@ -120,26 +120,20 @@ function createAccesoriesTable(accessoriesArray) {
 function prepareForm() {
     const forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
     Array.from(forms).forEach(form => {
-        form.addEventListener('click', event => {
+        $('#sendOrder').click(function(event) {
             event.preventDefault();
             event.stopPropagation();
 
-        if (!form.checkValidity()) {
-            // event.preventDefault();
-            // event.stopPropagation();
-            console.log('not ok');
-            form.classList.add('was-validated');
-            return false;
-        }
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+                return false;
+            }
 
-        console.log('ok');
-        // form.classList.add('was-validated');
+            window.location.href = `success.html?price=${totalPrice}`;
+        });
 
-        window.location.href = `success.html?price=${totalPrice}`;
-        },true)
-
+        
         
     })
 }
